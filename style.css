@@ -1,0 +1,372 @@
+/* Default CSS */
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+body{
+    font-family: 'Arimo', sans-serif;
+}
+
+/* Header Starts here */
+header{
+    background-color: #ee2e24;
+    color: aliceblue;
+    padding: 10px 0;
+}
+header .intro{
+    width: 20%;
+}
+header .news{
+    width: 80%;
+}
+/* header ends here */
+/* nav starts here */
+nav{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+nav .logo{
+    width: 30%;
+   
+}
+nav .manu{
+    width: 70%;
+    
+}
+nav .manu ul{
+    text-align: right;
+}
+nav .manu ul li{
+    display: inline-block;
+    padding: 25px;
+}
+
+nav .manu ul li a{
+    color: #444;
+}
+nav .manu ul li:hover a{
+    color: #ee2e24;
+    transition: 0.4ms;
+}
+
+nav .manu ul li:last-child{
+    background-color: #ee2e24;
+}
+nav .manu ul li:last-child a{
+    color: antiquewhite;
+}
+/* nav ends here */
+/* banner starts */
+#banner img{
+    width: 100%;
+}
+/* banner ends */
+/* about starts */
+#about{
+    padding: 40px 0;
+}
+#about img{
+    width: 100%;
+}
+
+#about .about_img{
+    width: 40%;
+}
+#about .about_text{
+    width: 55%;
+}
+
+#about .about_text h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: #5b6b80;
+    margin-bottom: 20px;
+}
+#about .about_text p{
+    font-size: 16px;
+    color: #777;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+/* about ends */
+/* seminer section strats */
+#seminar{
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    font-family: 'Arimo', sans-serif;
+  }
+  
+  #seminar .schedule-table{
+    background-color: white;
+    padding-bottom: 10px;
+  }
+  
+  #seminar .schedule h2{
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 0;
+  color: #444;
+  background-color: #e9e9e9;
+  }
+  
+  #seminar .table{
+    padding: 20px 10px;
+  }
+  
+  #seminar table{
+    justify-content: space-evenly;
+    margin: auto;
+  }
+  
+  #seminar table tr:first-child{
+  color: white;
+  background-color: #49596d;
+  }
+  
+  #seminar table tr:nth-child(odd){
+    background-color: #f2f2f2;
+  }
+  
+  #seminar table td{
+    padding: 20px 70px;
+  }
+  
+  #seminar table th{
+    background-color: #49596d;
+    padding: 20px 70px;
+  }
+  
+  #seminar table td a{
+    color: white;
+    background-color: #49596d;
+    padding: 14px 34px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  #seminar table td a:hover{
+    background-color:  #e52c23;
+  }
+  
+  /* seminer section ends */
+/* course starts */
+#courseSection{
+    padding: 40px 0;
+}
+#courseSection .course-header{
+    font-family: arimo;
+    color: #5b6b80;
+    padding: 20px 0;
+    }
+  
+    #courseSection .course-header h2{
+      font-size: 32px;
+    }
+#courseSection .course{
+    width: 49%;
+    border: 1px solid #777;
+    background-color: #f5f5f5;
+    margin-bottom: 15px;
+   
+}
+#courseSection .course .course_text{
+    width: 60%;
+}
+#courseSection .course .course_text h3 {
+    font-size: 24px;
+    padding: 15px 0 15px 15px;
+}
+#courseSection .course .course_text p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 15px 0 30px 15px;
+}
+#courseSection .course .course_text a {
+    height: 50px ;
+    width: 200px; 
+    display: inline-block;
+    background-color: #49596d;
+    line-height: 50px;
+    color: #f5f5f5;
+    text-align: center;
+    border-radius: 0 25px 25px 0;
+    transition: 500ms;
+}
+#courseSection .course .course_text a:hover{
+    background-color: #ee2e24;
+}
+#courseSection .course .course_img{
+    width: 40%;
+    
+}
+#courseSection .course .course_img img{
+    width: 100%;
+    display: block;
+}
+/* course ends */
+
+/* gallery img starts */
+.gallery-text{
+    font-family: arimo;
+    color: #5b6b80;
+    padding: 20px 0;
+    }
+    .gallery-text h2{
+      font-size: 34px;
+    }
+    .gallery-text p{
+      line-height: 24px;
+    }
+    .gallery-img img{
+      width: 100%;
+      padding-bottom: 18px;
+    }
+    .gallery-img .img-1{
+    width: 30%;
+    }
+    .gallery-img .img-2{
+      width: 30%;
+    }
+    .gallery-img .img-3{
+      width: 30%;
+    }
+    .gallery-img .img-4{
+      width: 30%;
+    }
+    .gallery-img .img-5{
+      width: 30%;
+    }
+    .gallery-img .img-6{
+      width: 30%;
+    }
+    .gallery-img .img-7{
+      width: 30%;
+    }
+    .gallery-img .img-8{
+      width: 30%;
+    }
+    .gallery-img .img-9{
+      width: 30%;
+    }
+    /* gallery img ends */
+
+/* contact starts */
+#contact{
+    padding: 40px 0;
+}
+
+#contact .input_field{
+    width: 49%;
+    margin-bottom: 20px;
+}
+#contact .input_field input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    border: 1px solid #ddd;
+    outline: none;
+    text-indent: 25px;
+}
+#contact .message textarea:focus,
+#contact .input_field input:focus{
+    box-shadow: 0 0px 5px rgb(31, 136, 255);
+}
+#contact .message{
+    width: 100%;
+}
+#contact .message textarea{
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    border: 0;
+    border: 1px solid #ddd;
+    outline: none;
+    text-indent: 25px;
+    resize: none;
+}
+#contact button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    display: block;
+    margin:20px auto 0;
+    border: none;
+    background-color: #49596d;
+    border-radius: 35px;
+    color: #ddd;
+    cursor: pointer;
+    transition: 400ms;
+
+}
+#contact button:hover{
+    background-color: #ee2e24;
+}
+/* contact ends */
+/* footer starts */
+footer{
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    font-family: arimo;
+  }
+  footer .logo-end{
+    width: 30%;
+  
+  }
+  footer .logo-end img{
+    align-items: center;
+  }
+  footer .logo-end p{
+    color: #49596d;
+    line-height: 24px;
+  }
+  footer .address{
+  width: 30%;
+  }
+  footer .address h3{
+    color: #49596d;
+    font-size: 28px;
+    padding-bottom: 20px;
+  }
+  footer .address p{
+    color: #49596d;
+    line-height: 24px;
+  }
+  footer .contact-end{
+    width: 30%;
+  }
+  footer .contact-end h3{
+    color: #49596d;
+    font-size: 28px;
+    padding-bottom: 20px;
+  }
+  footer .contact-end p{
+    color: #49596d;
+    line-height: 24px;
+  }
+  /* footer ends */
